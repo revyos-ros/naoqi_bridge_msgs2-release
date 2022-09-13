@@ -1,0 +1,10 @@
+ros-galactic-naoqi-bridge-msgs (2.0.0-0focal) focal; urgency=high
+
+  * Update README, add buildfarm status badges
+  * Merge branch 'ros2_integration' into main
+  * ROS2 integration from https://github.com/mbusy/naoqi_bridge_msgs/tree/ros2
+  * Contributors: mbusy
+
+ -- Maxime Busy <mbusy@softbankrobotics.com>  Mon, 12 Sep 2022 22:00:00 -0000
+
+
