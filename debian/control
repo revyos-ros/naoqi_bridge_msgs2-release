@@ -1,0 +1,14 @@
+Source: ros-iron-naoqi-bridge-msgs
+Section: misc
+Priority: optional
+Maintainer: Victor Paléologue <victor.paleologue@palaio.eu>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-action-msgs, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rosidl-default-generators, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-trajectory-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-naoqi-bridge-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-action-msgs, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-trajectory-msgs, ros-iron-ros-workspace
+Conflicts: ros-iron-naoqi-msgs
+Replaces: ros-iron-naoqi-msgs
+Description: The naoqi_bridge_msgs package provides custom messages for running Aldebaran's robots in ROS2.
